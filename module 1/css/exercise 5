@@ -1,86 +1,49 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Community Event Gallery</title>
-    <style>
-        .eventImage {
-            border: 3px solid blue;
-            width: 200px;
-            height: 150px;
-        }
-        table {
-            margin: auto;
-        }
-        td {
-            padding: 15px;
-            text-align: center;
-        }
-    </style>
+    <title>Typography Example</title>
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Poppins&display=swap">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1 align="center">
-        Community Events Gallery
+    <h1>
+        Welcome to City Portal
     </h1>
-    <table>
-        <tr>
-            <td>
-                <img src="https://via.placeholder.com/200x150"
-                     alt="Music Event"
-                     title="Music Event"
-                     class="eventImage">
-                <p>
-                    Music Festival
-                </p>
-            </td>
-            <td>
-                <img src="https://via.placeholder.com/200x150"
-                     alt="Food Festival"
-                     title="Food Festival"
-                     class="eventImage">
-                <p>
-                    Food Festival
-                </p>
-            </td>
-            <td>
-                <img src="https://via.placeholder.com/200x150"
-                     alt="Sports Event"
-                     title="Sports Event"
-                     class="eventImage">
-                <p>
-                    Sports Event
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <img src="https://via.placeholder.com/200x150"
-                     alt="Art Show"
-                     title="Art Show"
-                     class="eventImage">
-                <p>
-                    Art Exhibition
-                </p>
-            </td>
-            <td>
-                <img src="https://via.placeholder.com/200x150"
-                     alt="Dance Event"
-                     title="Dance Event"
-                     class="eventImage">
-                <p>
-                    Dance Program
-                </p>
-            </td>
-            <td>
-                <img src="https://via.placeholder.com/200x150"
-                     alt="Book Fair"
-                     title="Book Fair"
-                     class="eventImage">
-                <p>
-                    Book Fair
-                </p>
-            </td>
-        </tr>
-    </table>
-
+    <div class="content">
+        <h2>
+            About Us
+        </h2>
+        <p class="description">
+            This portal provides information about city events and public services.
+        </p>
+    </div>
 </body>
-</html>
+</html
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: darkblue;
+}
+h2 {
+    font-size: 28px;
+    font-style: italic;
+    color: darkgreen;
+}
+.description {
+    font-size: 18px;
+    line-height: 30px;
+    text-align: justify;
+    letter-spacing: 1px;
+    color: #444444;
+}
