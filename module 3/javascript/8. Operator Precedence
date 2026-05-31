@@ -1,0 +1,11 @@
+public class OperatorPrecedence
+{
+	public static void main(String[] args) {
+	    int expression1 = (10*2)+16-5/5;
+	    int expression2 = (10 + 5) * 2;
+	    int expression3 = (10%4)+7-6*2;
+	    System.out.println(expression1);
+	    System.out.println(expression2);
+	    System.out.println(expression3);
+	}
+}
