@@ -1,35 +1,23 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Welcome Message</title>
-    <style>
-        #welcomeBanner {
-            background-color: blue;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-        .highlight {
-            background-color: yellow;
-            font-weight: bold;
-        }
-    </style>
-</head>
-<body>
-    <div id="welcomeBanner">
-        <h1>
-            Welcome, User!
-        </h1>
-        <p class="highlight">
-            Enjoy your visit to the portal.
-        </p>
-    </div>
-    <br>
-    <p style="color:red; font-weight:bold;">
-        Special Offer: 50% Discount Available Today!
-    </p>
-    <p class="highlight">
-        Important announcement for all users.
-    </p>
-</body>
-</html>
+* {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color: blue;
+    text-align: center;
+}
+#mainHeader {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+.eventCard {
+    border: 2px solid gray;
+    padding: 15px;
+    margin: 20px;
+    background-color: lightgray;
+}
+h3, p {
+    font-family: Arial;
+    color: darkgreen;
+}
